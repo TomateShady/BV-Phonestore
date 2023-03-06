@@ -1,0 +1,42 @@
+#navegador {  
+    display: inline-flex;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    background-color: #ffd700;
+    box-shadow: 2px 2px 3px #000000;
+}
+
+h1 {  
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+    margin: 15px 10px;
+    text-decoration: none;
+}
+
+.navGroupList{  
+    height: 100%;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.productos li {  
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px;
+    text-align: right;
+    margin: 5px 5px;
+    display: inline-flex;
+}
+
+span {  
+    color: #000000;
+    margin: 3px;
+}

@@ -1,0 +1,68 @@
+.carrito{
+    color: black;
+    margin: 18px auto 15px auto;
+    min-height: 100px;
+    width: 80%;
+    height: 80%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.50);
+    background-color: #ffffff;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+    padding: 12px;
+  }
+  .carrito:hover{
+      opacity: 0.9;
+      background-color: #dc143c;
+      box-shadow: 1px 4px 5px #000000;
+      color: #ffffff;
+  }
+  .carrito h2{
+      color: #000000;
+      margin: 5px 5px 5px 10px;
+      padding: 2px;
+  }
+  .carrito h3{
+      font-size: 18px;
+      margin: 5px 5px 5px 10px;
+  }
+  .carrito h4{
+      font-size: 12px;
+      margin: auto auto auto 10px;
+  }
+  .btnCarrito{
+    padding: 5px 12px;
+    color: #ffffff;
+    max-width: 150px;
+    background-color: #000000;
+    border-radius: 4px; 
+    border: none;
+    margin: 10px auto 15px 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btnCarrito:hover{
+      background-color: #ffffff;
+      color: #dc143c;
+  }
+  .btn{
+  background-color:#ffc0cb;
+  color: #000000;
+  font-size: 14px;
+  padding: 5px 12px;
+ justify-content: space-between;
+  border-radius: 4px;
+  border:none;
+  }
+  .btn:hover{
+      background-color: #dc143c;
+      color: #ffffff;
+  }
+  .vacio{
+      font-size: 29px;
+      font-weight:700;
+      margin: 35px auto 10px auto;
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+  }
