@@ -7,7 +7,7 @@ import MyButton from "../myButtonFolder/MyButton";
 import "./itemdetail.css";
 
 function ItemDetail ({ data }) {
-    const [isInCart, setIsInCart] = useContext;
+    const [isInCart, setIsInCart] = useState(false);
 
     const { addToCart } = useContext(cartContext);
 
@@ -24,7 +24,7 @@ function ItemDetail ({ data }) {
             <div className="card-detail">
                 <h3>{data.title}</h3>
                 <p>{data.category}</p>
-                <p>{data.price}</p>
+                <p>${data.price}</p>
                 {
                     isInCart ?
                     <Link to="/cart">

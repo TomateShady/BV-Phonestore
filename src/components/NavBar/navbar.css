@@ -8,6 +8,14 @@
     width: 100%;
     background-color: #ffd700;
     box-shadow: 2px 2px 3px #000000;
+    text-decoration: none;
+}
+#navegador a{
+    text-decoration: none;
+    color: black;
+}
+#navegador a:hover{
+    color: aliceblue;
 }
 
 h1 {  
@@ -17,6 +25,9 @@ h1 {
     padding: 10px;
     margin: 15px 10px;
     text-decoration: none;
+}
+h1:hover{
+    color: aliceblue;
 }
 
 .navGroupList{  
@@ -36,6 +47,9 @@ h1 {
     display: inline-flex;
 }
 
+.productos li a:hover{
+    color: grey
+}
 span {  
     color: #000000;
     margin: 3px;
