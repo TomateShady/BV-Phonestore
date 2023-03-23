@@ -1,8 +1,7 @@
 
-/* eslint-disable no-undef */
 
 import { initializeApp } from "firebase/app";
-import { getFirestore, 
+import { getFirestore,
     collection,
     doc,
     getDocs,
@@ -10,16 +9,16 @@ import { getFirestore,
     query,
     where,
     addDoc,
- } from "firebase/firestore";
+} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCYJptosDZac-F7RD4vfZbyDjJgmUxfdIs",
-  authDomain: "react-js--mi-proyecto.firebaseapp.com",
-  projectId: "react-js--mi-proyecto",
-  storageBucket: "react-js--mi-proyecto.appspot.com",
-  messagingSenderId: "903588502575",
-  appId: "1:903588502575:web:e56761f258eb357799bada",
-  measurementId: "G-SE3WEZ91FS"
+  apiKey: "AIzaSyBJqcKuyMpPixmLF7CtYaiOaqMiQ1TvIlg",
+  authDomain: "bv-phonestore-b8028.firebaseapp.com",
+  projectId: "bv-phonestore-b8028",
+  storageBucket: "bv-phonestore-b8028.appspot.com",
+  messagingSenderId: "907209138876",
+  appId: "1:907209138876:web:7ee48c4b1acfbdd353e6b9",
+  measurementId: "G-24L4KKZLX4"
 };
 
 const app = initializeApp(firebaseConfig);

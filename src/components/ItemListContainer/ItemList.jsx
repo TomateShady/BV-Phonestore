@@ -12,6 +12,7 @@ export default function ItemList({ data }){
                     id= {data.id}
                     imgurl={data.thumbnail}
                     title={data.title}
+                    price={data.price}
                     category={data.category}
                     />
                 );
